@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <link
+      rel="stylesheet"
+      href="style.css" />
+
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet" />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="images">
+        <img
+          class="absolute"
+          src="./images/illustration-box-desktop.svg"
+          alt="" />
+        <img
+          class="pc"
+          src="./images/illustration-woman-online-desktop.svg"
+          alt="" />
+      </div>
+      <div
+        class="faq-list"
+        id="faq">
+        <h1 class="title">FAQ</h1>
+        <dl class="faq-lista js-accordion">
+          <dl class="border">
+            <dt>How many team members can I invite?</dt>
+            <dd>
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </dd>
+          </dl>
+          <dl class="border">
+            <dt>What is the maximum file upload size?</dt>
+            <dd>
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </dd>
+          </dl>
+          <dl class="border">
+            <dt>How do I reset my password?</dt>
+            <dd>
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </dd>
+          </dl>
+          <dl class="border">
+            <dt>Can I cancel my subscription?</dt>
+            <dd>
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </dd>
+          </dl>
+          <dl class="border">
+            <dt>Do you provide additional support?</dt>
+            <dd>
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </dd>
+          </dl>
+        </dl>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
